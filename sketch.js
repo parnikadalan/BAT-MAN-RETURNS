@@ -7,7 +7,6 @@ var drops = [];
 var maxDrops = 100;
 var umbrella;
 var rand;
-var night;
 var Thunder, thunder1,thunder2,thunder3,thunder4;
 var thunderCreatedFrame = 0;
 
@@ -34,7 +33,7 @@ function setup(){
 
 function draw(){
    Engine.update(engine);
-   background(night); 
+   background(0); 
 
     
     rand = Math.round(random(1,4));
